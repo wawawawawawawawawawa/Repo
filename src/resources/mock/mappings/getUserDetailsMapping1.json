@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",      //定义接口的请求方式
+    "urlPattern": "/api/getBook/([a-z]*)"     //定义接口的路径
+  },
+  "response": {
+    "status": 200,     //接口返回码
+    "body": "get book with url pattern successfully"
+    }
+  }
